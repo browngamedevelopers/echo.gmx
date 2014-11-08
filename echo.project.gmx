@@ -8,10 +8,22 @@
   <sprites name="sprites">
     <sprite>sprites\Brandons_sprite</sprite>
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\sprWallVert</sprite>
+    <sprite>sprites\sprWallhoriz</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <objects name="objects">
+    <object>objects\objRecorder</object>
+    <object>objects\objDynamic</object>
+    <object>objects\objStatic</object>
+    <object>objects\objGuard</object>
+    <object>objects\objEnvironment</object>
+    <object>objects\objPlayer</object>
+    <object>objects\objWallHoriz</object>
+    <object>objects\objWallVert</object>
     <object>objects\object0</object>
   </objects>
   <rooms name="rooms">
