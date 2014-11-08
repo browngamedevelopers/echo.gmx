@@ -9,6 +9,7 @@
     <sprite>sprites\sprGuard</sprite>
     <sprite>sprites\sprWallVert</sprite>
     <sprite>sprites\sprWallhoriz</sprite>
+    <sprite>sprites\sprDoor</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -22,6 +23,7 @@
     <object>objects\objEnvironment</object>
     <object>objects\objPlayer</object>
     <object>objects\objWallHoriz</object>
+    <object>objects\objDoor</object>
     <object>objects\objWallVert</object>
   </objects>
   <rooms name="rooms">
