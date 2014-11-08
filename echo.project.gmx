@@ -6,8 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprWallVert</sprite>
-    <sprite>sprites\sprWallhoriz</sprite>
+    <sprite>sprites\sprPlayer</sprite>
+    <sprite>sprites\sprWall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -20,11 +20,10 @@
     <object>objects\objGuard</object>
     <object>objects\objEnvironment</object>
     <object>objects\objPlayer</object>
-    <object>objects\objWallHoriz</object>
-    <object>objects\objWallVert</object>
+    <object>objects\objWall</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\TestRoom</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">0</constant>
