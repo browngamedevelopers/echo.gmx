@@ -6,12 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-
     <sprite>sprites\sprPlayer</sprite>
     <sprite>sprites\sprWall</sprite>
     <sprite>sprites\sprGuard</sprite>
     <sprite>sprites\sprDoor</sprite>
-
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -24,7 +22,6 @@
     <object>objects\objStatic</object>
     <object>objects\objEnvironment</object>
     <object>objects\objPlayer</object>
-
     <object>objects\objWall</object>
     <object>objects\objDoor</object>
   </objects>

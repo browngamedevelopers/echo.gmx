@@ -54,7 +54,7 @@ isOpen = false
 if (keyboard_check(ord("E"))) {
     self.solid = !self.solid
     self.visible = !self.visible
-    self.open = !self.open
+    self.isOpen = !self.isOpen
 }
 </string>
           </argument>
