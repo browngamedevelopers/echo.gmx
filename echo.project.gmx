@@ -6,8 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Brandons_sprite</sprite>
-    <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprWallVert</sprite>
     <sprite>sprites\sprWallhoriz</sprite>
   </sprites>
@@ -24,7 +22,6 @@
     <object>objects\objPlayer</object>
     <object>objects\objWallHoriz</object>
     <object>objects\objWallVert</object>
-    <object>objects\object0</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
