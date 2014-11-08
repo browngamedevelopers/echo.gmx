@@ -6,17 +6,23 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Brandons_sprite</sprite>
-    <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprGuard</sprite>
+    <sprite>sprites\sprWallVert</sprite>
+    <sprite>sprites\sprWallhoriz</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
     <path>paths\path0</path>
   </paths>
   <objects name="objects">
-    <object>objects\object0</object>
     <object>objects\objGuard</object>
+    <object>objects\objRecorder</object>
+    <object>objects\objDynamic</object>
+    <object>objects\objStatic</object>
+    <object>objects\objEnvironment</object>
+    <object>objects\objPlayer</object>
+    <object>objects\objWallHoriz</object>
+    <object>objects\objWallVert</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
