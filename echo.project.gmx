@@ -8,11 +8,15 @@
   <sprites name="sprites">
     <sprite>sprites\Brandons_sprite</sprite>
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\sprGuard</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <objects name="objects">
     <object>objects\object0</object>
+    <object>objects\objGuard</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
