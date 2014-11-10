@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize
-self.isOpen = false
-self.wasOpen = false
+            <string>///InitializeDoor
+isOpen = false
+wasOpen = false
 </string>
           </argument>
         </arguments>
@@ -52,18 +52,18 @@ self.wasOpen = false
             <kind>1</kind>
             <string>///OpenAndClose
 
-self.isOpen = place_meeting(x, y, objPlayer)
+isOpen = place_meeting(x, y, objPlayer)
 
-if (!self.isOpen and self.wasOpen) {
+if (!isOpen and wasOpen) {
     show_debug_message("Door closed")
 }
 
-if (self.isOpen and !self.wasOpen) {
+if (isOpen and !wasOpen) {
     show_debug_message("Door opened")
 }
 
-self.visible = !self.isOpen
-self.wasOpen = self.isOpen
+self.visible = !isOpen
+wasOpen = isOpen
 </string>
           </argument>
         </arguments>
@@ -88,10 +88,8 @@ self.wasOpen = self.isOpen
             <kind>1</kind>
             <string>///DrawOpenAndClose
 
-if (self.isOpen) {
-    draw_sprite(sprDoor, 0, x, y)
-} else {
-    draw_sprite(sprDoor, 0, x, y)
+if (!isOpen) {
+    draw_self()
 }
 </string>
           </argument>
