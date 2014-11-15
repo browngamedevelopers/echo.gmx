@@ -12,9 +12,12 @@
     <sprite>sprites\sprDoor</sprite>
     <sprite>sprites\sprDoorLocked</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
+    <path>paths\guardPath1</path>
   </paths>
   <objects name="objects">
     <object>objects\objGuard</object>
