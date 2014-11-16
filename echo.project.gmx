@@ -14,29 +14,12 @@
     <sprite>sprites\sprDoorLocked</sprite>
     <sprite>sprites\sprRecorder</sprite>
   </sprites>
-  <backgrounds name="background"/>
-  <paths name="paths">
-    <path>paths\path0</path>
-  </paths>
-  <objects name="objects">
-    <object>objects\objSpread</object>
-    <object>objects\objGuard</object>
-    <object>objects\objRecorder</object>
-    <object>objects\objDynamic</object>
-    <object>objects\objStatic</object>
-    <object>objects\objEnvironment</object>
-    <object>objects\objPlayer</object>
-    <object>objects\objWall</object>
-    <object>objects\objDoorLocked</object>
-    <object>objects\objDoor</object>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\TestRoom</room>
-  </rooms>
-  <constants number="2">
-    <constant name="GM_build_date">0</constant>
-    <constant name="GM_version">0</constant>
-  </constants>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
+  <paths name="paths"/>
+  <objects name="objects"/>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
