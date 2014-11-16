@@ -18,8 +18,22 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
-  <objects name="objects"/>
-  <rooms name="rooms"/>
+  <objects name="objects">
+    <object>objects\objDoor</object>
+    <object>objects\objDoorLocked</object>
+    <object>objects\objDynamic</object>
+    <object>objects\object0</object>
+    <object>objects\objEnvironment</object>
+    <object>objects\objGuard</object>
+    <object>objects\objPlayer</object>
+    <object>objects\objRecorder</object>
+    <object>objects\objSpread</object>
+    <object>objects\objStatic</object>
+    <object>objects\objWall</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\TestRoom</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

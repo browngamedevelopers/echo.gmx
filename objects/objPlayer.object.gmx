@@ -90,7 +90,7 @@ if (keyboard_check_pressed(ord('R'))){
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objStatic">
+    <event eventtype="4" ename="objDoor">
       <action>
         <libid>1</libid>
         <id>603</id>
