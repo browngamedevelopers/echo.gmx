@@ -32,6 +32,30 @@ image_speed=0;
         </arguments>
       </action>
     </event>
+    <event eventtype="3" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>view_xview[0] = x-view_wview[0]/2;
+view_yview[0] = y-view_hview[0]/2;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -80,6 +104,28 @@ if (keyboard_check_pressed(ord('R'))){
         }
     }
 }
+/*
+//Listen for sounds
+    //volume=0;
+    if(instance_exists(objSpread)){
+    //sound_play(sound5)
+    nearsound=instance_nearest(x,y,objSpread)
+    dist=distance_to_object(nearsound)
+    //show_message(dist)
+    dist_max=100;
+    dist_min=10
+    volume=1-((dist-dist_min)/(dist_max-dist_min))
+    sound_play(sound5)
+    sound_volume(sound5,volume)
+    }else{
+        sound_fade(sound5,0,300000)
+    }
+*/    
+    audio_listener_position(x,y,0)
+    if(instance_exists(objSpread)){
+        nearsound=instance_nearest(x,y,objSpread)
+        audio_play_sound_at(sound5, nearsound.x, nearsound.y,0, 10*nearsound.image_alpha, 30, 10, false, 1)  
+    }
 
 
 
@@ -90,7 +136,7 @@ if (keyboard_check_pressed(ord('R'))){
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objDoor">
+    <event eventtype="4" ename="objStatic">
       <action>
         <libid>1</libid>
         <id>603</id>

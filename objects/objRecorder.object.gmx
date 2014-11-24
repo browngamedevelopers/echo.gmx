@@ -83,8 +83,9 @@ if(keyboard_check_pressed(vk_space)&amp;&amp; canPlay){
             speed = 9;
         }
     }
-    //canPlay=false;
-    //alarm[0]=50;
+    //Delay to play again
+    canPlay=false;
+    alarm[0]=10;
 }
 </string>
           </argument>
