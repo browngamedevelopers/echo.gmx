@@ -8,6 +8,7 @@
     <sound>sound\sound5</sound>
     <sound>sound\sndBees</sound>
     <sound>sound\Zeldafountain</sound>
+    <sound>sound\sndMain</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprFakeGuard</sprite>
@@ -19,9 +20,11 @@
     <sprite>sprites\sprDoorLocked</sprite>
     <sprite>sprites\sprRecorder</sprite>
     <sprite>sprites\sprRecorder2</sprite>
+    <sprite>sprites\sprFan</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\guardPath1</path>
