@@ -51,6 +51,13 @@ image_speed=0;
             <kind>1</kind>
             <string>view_xview[0] = x-view_wview[0]/2;
 view_yview[0] = y-view_hview[0]/2;
+
+view_xview[0] = max(0,view_xview[0]);
+view_yview[0] = max(0,view_yview[0]);
+
+
+view_xview[0] = min(room_width-view_wview[0],view_xview[0]);
+view_yview[0] = min(room_height-view_hview[0],view_yview[0]);
 </string>
           </argument>
         </arguments>
