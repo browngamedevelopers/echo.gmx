@@ -28,7 +28,6 @@
     <path>paths\path0</path>
   </paths>
   <objects name="objects">
-    <object>objects\objFakeGuard</object>
     <object>objects\objDoor</object>
     <object>objects\objDoorLocked</object>
     <object>objects\objDynamic</object>
